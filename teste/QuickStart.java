@@ -9,7 +9,7 @@ public class QuickStart {
             
             String i = "";
         
-            System.out.println("Ponto de entrada - Chamada da Tela Principal!");
+            System.out.println("digite seu nome");
             i = System.console().readLine();
             System.out.println(i);
 

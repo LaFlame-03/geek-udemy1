@@ -1,12 +1,14 @@
 package teste;
-
+import java.util.Random;
+import java.util.random.*;
 public class teste {
 
     public static void main(String[] args){
 
         teste oi = new teste();
 
-        oi.toString("derick");
+        oi.toString("");
+       
 
     }
 
@@ -14,4 +16,5 @@ public class teste {
         System.out.println(string);
     }
 
+    
 }

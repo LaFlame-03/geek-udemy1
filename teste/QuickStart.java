@@ -1,15 +1,21 @@
 package teste;
+import java.util.random.*;
+import java.util.Random;
+import java.lang.ClassNotFoundException;
+
 public class QuickStart {
     
-        public static void main(String[] args){
-            System.out.println("Hello World");
+        public static void main(String[] args)
+    {    
             
-            String i = "";
-        
-            System.out.println("digite seu nome");
-            i = System.console().readLine();
-            System.out.println(i);
+    String[] option = {"sim", "não"};
 
-        }        
+    Random R = new Random();
+
+    int index = R.nextInt(option.length);
+
+    System.out.println(option[index]);
+
+    }        
         
 }
